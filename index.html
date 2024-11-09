@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Cars</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4 text-bg-dark" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1 text-white">Zero Cars</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#Em-destaque" class="nav-link">
+                            Em destaque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smoth-scroll >
+        <section id="sobre" class="text-bg-dark">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/carousel_1.webp" alt="Cafes em Grão">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel_2.webp" alt="cafes secando para serem torrados">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel_3.webp" alt="Cafe gelado com leite">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/sobre.jpg" class="d-block w-100 rounded" alt="Foto Inerna da Cafeteria com uma xicara">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre</h2>
+                            <p class="lead">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse vero consequatur perspiciatis, aliquam, sit quidem porro assumenda nulla molestias incidunt illo odit. Corrupti nisi ipsum voluptatum nam veritatis odio atque.
+                            </p>
+                            <p class="lead">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse vero consequatur perspiciatis, aliquam, sit quidem porro assumenda nulla molestias incidunt illo odit. Corrupti nisi ipsum voluptatum nam veritatis odio atque.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Em-destaque" class="container my-5 pt-5 pb-5 lista-veiculos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Em destaque</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/urus-venatus-s.webp" class="card-img-top" alt="Imagem Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Urus Venatus S</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <strong>R$ 100.000,00</strong>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="imagens/urus-venatus-coupé-evo-c.webp" class="card-img-top" alt="Imagem Card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Urus Venatus Coupé EVO C</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <strong>R$ 100.000,00</strong>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/urus-venatus.webp" class="card-img-top" alt="Imagem Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Urus Venatus</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <strong>R$ 100.000,00</strong>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="container my-5 pt-5 pb-5 lista-veiculos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Promoções</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/ferrari-purosangue.webp" class="card-img-top" alt="Imagem Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Ferrari Pugnator</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <del>R$ 100.000,00</del>
+                                    <strong>R$ 75.000,00</strong>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="imagens/porsche-911.webp" class="card-img-top" alt="Imagem Card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Porsche MANSORY P9LM EVO 900</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <del>R$ 100.000,00</del>
+                                    <strong>R$ 75.000,00</strong>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/mclaren-12c.webp" class="card-img-top" alt="Imagem Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">McLaren mp4 12c</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem, ipsum dolor sit amet consectetur.
+                                    </li>
+                                </ul>
+                                <div class="price">
+                                    <del>R$ 100.000,00</del>
+                                    <strong>R$ 75.000,00</strong>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="container my-5 pt-5 pb-5">
+            <div class="container my-5">
+                <div class="row">
+                    <h2 class="section-title text-center">Entre em Contato</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-7 mb-5">
+                        <form id="contactForm">
+                            <div class="mb-3 form-campo">
+                                <label for="nome" class="form-label">Nome:</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+                            </div>
+                            <div class="mb-3 form-campo">
+                                <label for="telefone" class="form-label">Telefone:</label>
+                                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(DDD) 12345-6789">
+                            </div>
+                            <div class="mb-3 form-campo">
+                                <label for="email" class="form-label">E-mail:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                            </div>
+                            <div class="mb-3 form-campo">
+                                <label for="veiculo" class="form-label">Veículo de interesse:</label>
+                                <input type="text" class="form-control" id="veiculo-interesse" name="veiculoDeInteresse" placeholder="Nome do veículo de interesse">
+                            </div>
+                            <div class="mb-3 form-campo">
+                                <label for="mensagem" class="form-label">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" rows="3" placeholder="Escreva sua mensagem"></textarea>
+                            </div>
+                            <button id="btn-checar-emails" type="submit" class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <!-- Toast de sucesso -->
+        <div data-bs-autohide="true" class="toast" id="toast-success" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Sucesso</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Formulário enviado com sucesso!
+            </div>
+        </div>
+        <!-- Toast de erro -->
+        <div data-bs-autohide="false" class="toast" id="toast-error" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Erro</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Por favor, preencha todos os campos corretamente.
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center p-4 mt-4"> 
+        <div class="container d-flex justify-content-between">
+            <p class="fs-5">2024 &copy; Zero Cars - Todos os direitos reservados</p>
+            <div class="justify-content-between">
+                <a href="#" class="text-success mx-2 fs-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="#" class="text-danger mx-2 fs-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-primary mx-2 fs-2"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
